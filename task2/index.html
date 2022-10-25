@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Registration Form</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <form>
+      <h1>Registration Form</h1>
+      <div>
+        <label>First Name: </label>
+        <input type="text" />
+      </div>
+      <div>
+        <label>Last Name: </label>
+        <input type="text" />
+      </div>
+      <div>
+        <label>Phone Number: </label>
+        <input type="number" />
+      </div>
+      <div>
+        <label>Email: </label>
+        <input type="email" />
+      </div>
+
+      <div id="gender_container">
+        <p>Gender:</p>
+        <label class="gender"
+          >Male
+          <input type="radio" name="gender" />
+        </label>
+
+        <label class="gender"
+          >Female
+          <input type="radio" name="gender" />
+        </label>
+      </div>
+      <div>
+        <label>Date of Birth:</label>
+        <input type="date" />
+      </div>
+      <div>
+        <label>Favorite Color:</label>
+        <input type="color" />
+      </div>
+
+      <div class="btn">
+        <button>
+          <a href="login.html">Submit</a>
+        </button>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>

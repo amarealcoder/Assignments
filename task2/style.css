@@ -1,0 +1,81 @@
+*,
+*::after,
+*:before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #88a3cf;
+  max-width: 500px;
+  margin: 4rem auto;
+}
+h1 {
+  text-align: center;
+}
+form {
+  padding: 1.5rem;
+  border: 2px solid #c7d1d0;
+  border-radius: 3rem;
+}
+input[type='text'],
+input[type='number'],
+input[type='email'],
+input[type='password'] {
+  border-radius: 12px;
+  margin: 10px 0;
+  padding: 8px 0px 8px 1rem;
+  width: 100%;
+  background-color: #c7d1d0;
+}
+div {
+  margin-top: 2rem;
+}
+#gender_container p {
+  margin-bottom: 0.25rem;
+}
+
+.gender {
+  font-size: 1rem;
+  display: block;
+  margin: 1rem;
+}
+::-webkit-datetime-edit {
+  padding: 1em;
+}
+::-webkit-datetime-edit-fields-wrapper {
+  background: silver;
+}
+::-webkit-datetime-edit-text {
+  color: red;
+  padding: 0 0.3em;
+}
+::-webkit-datetime-edit-month-field {
+  color: blue;
+}
+::-webkit-datetime-edit-day-field {
+  color: green;
+}
+::-webkit-datetime-edit-year-field {
+  color: purple;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  text-align: center;
+  padding: 0.75rem 2rem;
+  border-radius: 50px;
+  background: blue;
+  border: none;
+  outline: none;
+}
+button a {
+  color: silver;
+  font-size: 1rem;
+  text-decoration: none;
+}

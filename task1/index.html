@@ -3,53 +3,182 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Flexbox</title>
-
+    <title>Miracle Ugorji</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Roboto+Slab:wght@300&family=Roboto:ital@1&display=swap"
       rel="stylesheet"
     />
-
-    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
 
   <body>
-    <div class="link">
-      <a href="grid.html">Click here to view grid layout</a>
-    </div>
+    <header>
+      <h1>amarealcoder</h1>
+      <nav>
+        <ul class="mobile-nav">
+          <li><a href="#home">home</a></li>
+          <li><a href="#projects">projects</a></li>
+          <li><a href="#about">about me</a></li>
+          <li><a href="#services">services</a></li>
+          <li class="contact"><a href="./contact.html">contact</a></li>
+        </ul>
+      </nav>
+      <div class="menu">
+        <div class="burger"></div>
+        <div class="burger"></div>
+        <div class="burger"></div>
+      </div>
+    </header>
 
     <main class="container">
-      <div class="content">
-        <img src="./images/icon-sedans.svg" />
-        <h2>Sedans</h2>
-        <p>
-          Choose a sedans for it's affordability and excelent fuel economy.
-          Ideal for cruising in the city or your next road trip.
-        </p>
-        <button class="btn-1">Learn More</button>
-      </div>
+      <section class="hero" id="home">
+        <div class="hero-detail">
+          <p>Hi, I'm</p>
+          <h1>Miracle Ugorji</h1>
+          <p>A Frontend Developer</p>
+          <p>I enjoy using HTML, CSS, and Javascript to build effective UIs</p>
+        </div>
+        <div class="hero-image">
+          <img src="./images/heroImage.jpg" alt="portfolio image" />
+        </div>
+      </section>
 
-      <div class="content">
-        <img src="./images/icon-suvs.svg" />
-        <h2>Suv</h2>
+      <section id="about">
+        <h2>About me</h2>
         <p>
-          Take an suv for it's spacious interior, power and versatility. Perfect
-          for your next family vacation and off-road adventures
+          Hi there! I am a Front-end Developer with experience building
+          interactive, responsive, and optimized web user-facing applications
+          using React.Js, Javascript, CSS, and CSS preprocessor (SCSS). I also
+          love to use other CSS frameworks like Material UI and Bootstrap.
+          Currently, I help companies, businesses, as well as individuals to
+          develop, maintain and deploy their web apps as a freelancer. With my
+          experience as an open-source contributor, I am able to work
+          collaboratively and remotely on products. When I'm not coding, you can
+          find me making beautiful dresses with African prints or dancing.
         </p>
-        <button class="btn-2">Learn More</button>
-      </div>
+      </section>
 
-      <div class="content">
-        <img src="./images/icon-sedans.svg" />
-        <h2>Luxury</h2>
-        <p>
-          Cruise in the best car brands without the bloated prices. Enjoy the
-          enhances luxury of rentals and arrive in style.
-        </p>
-        <button class="btn-3">Learn More</button>
-      </div>
+      <section id="projects">
+        <h2>Stuff I've worked on</h2>
+        <div class="project-container">
+          <div class="project-img">
+            <img
+              src="./images/buzzymart.png"
+              alt="a screenshot of the buzzymart app"
+            />
+          </div>
+          <div class="project-desc-container">
+            <p class="project-desc">
+              An e-commerce app. Built with Javascript, React, CSS module,
+              Firebase and Reactquery
+            </p>
+            <p>
+              <a target="_blank" href="https://buzzymart.netlify.app/"
+                >Preview</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img
+              src="./images/calculator.png"
+              alt="a screenshot of the calculator app"
+            />
+          </div>
+          <div class="project-desc-container">
+            <p class="project-desc">
+              A calculator app. Built with Javascript, HTML and CSS.
+            </p>
+            <p>
+              <a
+                target="_blank"
+                href="https://amarealcoder-calculator.netlify.app"
+                >Preview</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img
+              src="./images/tip-calculator.png"
+              alt="a screenshot of the buzzymart app"
+            />
+          </div>
+          <div class="project-desc-container">
+            <p class="project-desc">
+              A tip calculator. Built with html, css and javascript.
+            </p>
+            <p>
+              <a target="_blank" href="https://happy-tip-calculator.netlify.app"
+                >Preview</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img
+              src="./images/todo-list.png"
+              alt="a screenshot of the buzzymart app"
+            />
+          </div>
+          <div class="project-desc-container">
+            <p class="project-desc">
+              A todo lists app. Built with Javascript, html and CSS.
+            </p>
+            <p>
+              <a target="_blank" href="https://todo-lister-app.netlify.app"
+                >Preview</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="project-container">
+          <div class="project-img">
+            <img src="./images/fylo.png" alt="a screenshot of the fylo app" />
+          </div>
+          <div class="project-desc-container">
+            <p class="project-desc">A landing page. Built with html and css</p>
+            <p>
+              <a
+                target="_blank"
+                href="https://darktheme-landing-page.netlify.app"
+                >Preview</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <h2>Services</h2>
+        <div class="services-desc">
+          <p>Frontend web development</p>
+          <p>HTML/CSS page development</p>
+          <p>Custom design develop</p>
+          <p>Web app maintenance</p>
+          <p>Dynamic and fully functional web apps</p>
+        </div>
+      </section>
     </main>
+    <footer>
+      <section>
+        <p>
+          Disclaimer: This page is mainly for training purposes. There may not
+          be much for the footer.
+        </p>
+        <p><a href="./contact.html">Contact me</a></p>
+      </section>
+    </footer>
+    <script src="script.js"></script>
+   
   </body>
 </html>
